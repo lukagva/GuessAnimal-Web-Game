@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Darumadrop+One&family=Gruppo&display=swap" rel="stylesheet"></head>
+<body>
+    <div class = title>
+        <h1>Guess Animal</h1>
+    </div>
+    <div class="audio">
+        <div class="play-button">
+           <img src="images/sound_sampler_FILL0_wght400_GRAD0_opsz48.svg" alt=""> Play Audio
+        </div>
+        <div class="waveContainer">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+            <div class="wave wave5"></div>
+        </div>
+    </div>
+    <div class = "animalContainer">
+        <div class="animal">
+            <div class="score-display"> 0 </div>
+            <div class = "restart-button"><img class = "restart-img-icon" src="images/restart_alt_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+            <div class="animalitem"><img class ='animalImg' id = "animal0" alt=""></div>
+            <div class="animalitem"><img class ='animalImg' id= "animal1"  alt=""></div>
+            <div class="animalitem"><img class ='animalImg' id ='animal2' alt=""></div>
+            <div class="animalitem"><img class ='animalImg' id ='animal3' alt=""></div>
+            <div class="animalitem"><img class ='animalImg' id ='animal4' alt=""></div>
+            <div class="animalitem"><img class ='animalImg' id ='animal5' alt=""></div>
+        </div>
+    </div>
+     <audio id = "correct-effect-sound" src="sounds/onlymp3.to - Correct answer Sound effect-6LbIVSFY0bw-256k-1656436054285.mp3"></audio>
+     <audio id = "cartoon-slip-sound" src="sounds/onlymp3.to - Cartoon Slip  Sound Effect-dyUbSm25ax8-256k-1654897675520.mp3"></audio>
+
+      <audio id="monkeyAudio" src="sounds/monkey.mp3"></audio>
+      <audio id="horseAudio" src="sounds/HORSE - Sound Effect.mp3"></audio>
+      <audio id ="elephantAudio" src="sounds/ELEPHANT - Sound Effect.mp3"></audio>
+      <audio id ="turkeyAudio" src="sounds/Turkey Gobble Sound Effect.mp3"></audio>
+      <audio id = "eagleAudio" src="sounds/Eagle sound.mp3"></audio>
+      <audio id = "tigerAudio" src="sounds/Tiger Roar Sound Effect.mp3"></audio>
+
+    <div class = "popUp">
+        <div class = "popUpscore"><p class = "correntScore"></p></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
